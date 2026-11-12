@@ -1,6 +1,6 @@
 const BASE_URL =
   import.meta.env.VITE_API_URL ||
-  "https://mini-saas-task-app-nckz.onrender.com/api";
+  "https://mini-task-sys.onrender.com/api";
 
 export const request = async (endpoint, method = "GET", body) => {
   const token = localStorage.getItem("token");
